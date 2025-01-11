@@ -1,0 +1,39 @@
+/* Parte 1:
+Crea un contenedor div
+Dale un color de fondo
+Dale un borde de un color diferente
+Dale un espaciado "padding" arriba de 10px
+Dale un ancho de 50%
+Trata de centrar la div HORIZONTALMENTE
+
+Parte 2:
+Centra la VERTICALMENTE (en el centro de la ventana del navegador)
+Agrega el siguiente CSS:
+* { padding: 0; margin: 0; box-sizing: border-box }
+Nota si hay alguna diferencia (revisa con la herramienta “inspect”) */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+.container {
+    background: aquamarine;
+    border: 3px solid black; 
+    width: 50%;
+    height: 200px;
+    padding-top: 10px;
+    margin: 0 auto;  /* Centra vertical y horizontalmente el div */
+}
+  
+    h1 { 
+    margin-top: 1px;
+    text-align: center;
+    color: #99676F;
+    }
+
+    p{
+    text-align: left;
+    }
+     

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            width: 60%;
+            align-items: center;
+            margin-inline: auto;
+            flex-wrap: wrap;
+        }
+
+        .parent {
+            display: flex;
+            flex-flow: wrap;
+            width: 80%;
+        }
+
+        .one {
+            width: 30%;
+            height: calc(70vh - 10px);
+            border: 1px solid crimson;
+        }
+
+
+        .content {
+            width: 100%;
+            display: flex;
+        }
+
+
+        .two {
+            width: 100%;
+            height: calc(40vh - 10px);
+            border: 1px solid crimson;
+        }
+
+
+        .three {
+            width: 50%;
+            height: calc(30vh);
+            border: 1px solid crimson;
+        }
+
+        .four {
+            width: 100%;
+            height: calc(20vh - 10px);
+            border: 1px solid crimson;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="one"></div>
+        <div class="parent">
+            <div class="two"></div>
+
+            <div class="content">
+                <div class="three"></div>
+                <div class="three"></div>
+            </div>
+        </div>
+    </div>
+    <div class="four"></div>
+</body>
+
+</html>

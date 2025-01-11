@@ -1,0 +1,17 @@
+/* ● Un título azul subrayado, en mayúsculas y sombra naranja. Alinea el texto al
+centro. El espacio entre cada letra debe de ser de 3px.
+● Un párrafo negro con espacio de -3px entre las palabras. La sangría debe ser
+de 75px. --> */
+h1 {
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px orange;
+    letter-spacing: 3px;
+    }
+p {
+    /* border: solid blue;   */
+    word-spacing: -3px;
+    text-indent: 75px;
+    }

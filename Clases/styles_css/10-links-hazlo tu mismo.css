@@ -1,0 +1,11 @@
+    /* unvisited link */
+    a:link {
+        color: purple;
+        text-decoration: none;/*para quitar el subrayado*/
+    }
+    /* visited link */
+    a:visited { color: green; }
+    /* mouse over link */
+    a:hover { color: brown; }
+    /* selected link */
+    a:active { color:blue; }

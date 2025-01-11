@@ -1,0 +1,36 @@
+.content {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+ 
+  div > .one, .two, .three, .four {
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    border: 2px dotted black;
+  } 
+  
+.one {
+    background-color: aqua;
+}
+
+.two {
+    /* position: relative;  */
+    /* top: 20px;
+    left: 20px;   */
+    background-color: green;
+}
+
+.three {
+    position: relative;
+    background-color: red;  
+}
+
+.four {
+    position: absolute;
+    top: 20px;
+    left: 20px; 
+    background-color: blue;
+}  
+

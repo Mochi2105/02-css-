@@ -1,0 +1,99 @@
+.myDiv{
+    border: 5px solid aliceblue;
+    background-color: cadetblue;
+    text-align: center;
+    color:aliceblue;
+}
+.li{
+    font-size: 30px;
+}
+body{
+    background-color: cadetblue;
+    color: aliceblue;
+}
+img{
+    float: none;
+    width: 90px;
+    height: 90px;
+}
+.Ser {
+    margin: 50px;
+    margin-left: 250px;
+}
+table{
+    text-align: center;
+    margin-left: 50px;
+    width: 600px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table,
+th,
+td {
+    border: 2px solid aliceblue;
+}
+th{
+    font-size: 20px;
+}
+tr:hover{
+    background-color: #81dab7;
+    color:rgb(18, 38, 26);
+}
+.Form {
+    border: 2px solid aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    overflow: hidden;
+    width: 400px; 
+    height: auto;      
+}
+input{
+    margin-left: 20px;
+    width: 90%;
+    height: 40%;
+    background-color: #c0e3d5;
+    border: 2px solid aliceblue;
+}
+textarea{
+    margin-left: 20px;
+    width: 350px;
+    height: 80px;
+    background-color: #c0e3d5
+}
+.map{
+    width: 30%;
+    height: 30%;
+    margin-inline: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.but{
+    margin-top: 20px;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+button:hover{
+    font-size: 15px;
+}
+pie{
+    background-color: rgb(74, 144, 116);
+    color: aliceblue;
+ }
+ h2{
+    margin-left: 50px;
+    font-size: 50px;
+ }
+ h3{
+    margin-left: 20px;
+    font-size: 20px;
+ }
+
+ .audio{
+    margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+ }

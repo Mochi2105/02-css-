@@ -1,0 +1,97 @@
+.c_block07 {
+    display: block;
+    width: 100%;
+}
+
+.c_subtitle {
+    width: 100%;
+    height: 100%;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    margin-inline: auto;
+}
+
+h2 {
+    color: #741d66;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    font-size: x-large;
+}
+
+.c_line {
+    width: 100%;
+    padding-bottom: 0px;
+    margin-inline: auto;
+}
+
+hr {
+    height: 1px;
+    width: 60px;
+    background-color: #741d66;
+}
+
+.c_imgbox07 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0fr 0fr;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 20px;
+}
+
+.c_box07 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(to bottom, #a311a4, #3b0a5b);
+    background-color: white;
+    border: 2px solid #f156a7;
+    border-radius: 20px;
+    margin: 5px 5px 5px 5px;
+}
+
+.c_recommended {
+    color: #f156a7;
+    font-size: 15px;
+    text-align: center;
+    margin-inline: auto;
+    margin-top: 5px;
+    margin-top: 1px;
+    padding-top: 0px;
+}
+
+.c_partitle07 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-inline: auto;
+    margin-top: 5px;
+}
+
+.c_parbox07 {
+    color: white;
+    font-size: medium;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.c_parbox07-1 {
+    width: 100%;
+    block-size: auto;
+}
+
+.c_parlist07 {
+    width: 60%;
+    block-size: auto;
+    color: white;
+    font-size: 15px;
+    padding-left: 50px;
+    /* list-style-image: url('C:\Users\edwin\OneDrive\Escritorio\bootcamp\Proyectos\individuales\resources\img\circle-box.png'); */
+    list-style-image: url("Proyectos\individuales\resources\img\circle-box.png")
+}
+
+.c_parfoot07 {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}

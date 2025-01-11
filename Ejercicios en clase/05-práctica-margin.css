@@ -1,0 +1,16 @@
+div{
+    border: 3px solid black;
+    margin-left: 50px;
+    background-color: aqua;
+}
+h1{
+    color: purple;
+    border: 8px solid red;
+    border-radius: 8px;
+    margin-left:auto;
+}
+p{
+    border: 5px dotted black;
+    margin-left: inherit;
+    margin-top: 8px;
+}

@@ -1,0 +1,13 @@
+h1 {    
+    border: 5px solid black ;
+    border-radius : 5px;
+}
+
+p {
+    border: 3px dotted green;   
+}
+
+h1, p {
+    color:blue;
+    margin: 20px 20px;
+}

@@ -1,0 +1,16 @@
+.content{
+    display: flex;
+    background-color: blueviolet;
+    align-items: center ;
+    margin inline;
+    margin: 5px, aliceblue;
+    flex-direction: column;
+    height: 750px;
+    width: 60%
+}
+.child1{
+    display: block;
+    background-color: blueviolet;
+    margin-right: 5px aliceblue;
+    flex-direction: column;
+}

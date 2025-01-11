@@ -1,0 +1,50 @@
+.miclase{
+background-color:royalblue;
+width:500px;
+height:100px;
+}
+.first{
+text-decoration: line-through;
+}
+.second {
+text-decoration: overline
+}
+.third {
+text-decoration: underline;
+}
+.content2{
+background-color: aquamarine;
+width: 500px;
+height: 100px;
+}
+.up{
+text-transform: uppercase;
+}
+.down{
+text-transform: lowercase;
+}
+.cap {
+text-transform: capitalize;
+}
+.content3{
+background-color:blueviolet;
+width: 500px;
+height: 200px;
+}
+.left{
+    text-align:left;
+}
+.center{
+    text-align:center;
+}
+.right{
+    text-align:right;
+}
+.content4{
+background-color: brown;
+width: 500px;
+height: 200px;
+}
+.indent{
+    text-indent: 50px;
+}

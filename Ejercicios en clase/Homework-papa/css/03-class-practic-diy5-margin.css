@@ -1,0 +1,24 @@
+/* 1.) Un div con un borde sólido solid y un margen a la izquierda de 50px.
+2.) Un título con un borde redondeado de 8 píxeles de color rojo y un margen automático (auto)
+3.) Un párrafo con un borde negro, punteado de 5px, hereda el margen de la izquierda e inicializa un margen arriba de 8px.
+4.) Usa taquigrafía.          */
+
+div {
+    margin-left: 50px;
+    border: 3px solid black;
+    background: aquamarine;
+    /* Uso de taquigrafia (abreviacion) */
+    font: italic bold 30px Times, serif; 
+}
+h1 {
+    color: blue;
+    border: 8px solid #ff0000 ;
+    border-radius : 8px;
+    /* margin-left: auto */
+}
+p {
+    border: 5px dotted #000000;
+    margin-left: inherit;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}

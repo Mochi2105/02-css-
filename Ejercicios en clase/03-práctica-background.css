@@ -1,0 +1,10 @@
+.background{
+  height: 400px;
+  background-image: url("../Recursos/coffee.png");
+  background-repeat: repeat-y;
+  background-size: 200px 200px;
+  background-position: center bottom;
+}
+h1{
+    color:blue
+}

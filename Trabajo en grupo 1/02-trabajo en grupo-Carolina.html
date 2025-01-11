@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../styles_css/02-trabajo en grupo-Carolina.css">
+    <title>Trabajo en grupo Carolina</title>
+</head>
+<body>
+    <div class="myDiv">
+        <h1>Uko Bread</h1>
+        <h3>Panadería y pastelería masa madre</h3>
+    </div>
+    <h2>Servicios</h2>
+    <div class="Ser">
+        <ul>
+         <li>All day brunch</li>
+         <li>Panadería</li>
+         <li>Postres</li>
+         <li>Bebidas</li>
+        </ul>
+    </div>
+    
+<h2>Carta</h2>
+<div>
+   <table>
+     <tr>
+        <th>Categoría</th>
+        <th>Nombre del plato</th>
+        <th>Precio</th>
+     </tr>
+     <tr>
+        <td>Brunch</td>
+        <td>Huevos Benedictinos</td>
+        <td>9,00</td>
+     </tr>
+     <tr>
+        <td>Ensalada</td>
+        <td>Beef base de Quinoa</td>
+        <td>14,00</td>
+     </tr>
+     <tr>
+        <td>Postre </td>
+        <td>CheeseCake</td>
+        <td>4,50</td>
+     </tr>
+     <tr>
+        <td>Bebidas</td>
+        <td>Americano</td>
+        <td>2,00</td>
+     </tr>
+</table>
+</div>
+
+<h2>Formulario:</h2>
+    <div class="Form">
+      <h3>Nombre:</h3><input type="text" name="nombre" placeholder="Ingrese su nombre">
+      <h3>Número de personas: </h3><input type="text" name="" id="">
+      <h3>Fecha de reserva: </h3><input type="date" name="" id="">
+      <h3>Comentarios:</h3><textarea name="" id=""></textarea><br>
+    </div>
+
+<div class="but">
+   <button type="submit" [disabled]="!form.form.valid">
+   ENVIAR
+</button>
+   </div>
+   <h2>Ubicación</h2>
+   <div class="map">
+   <iframe 
+   src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=chimborazao%20690,%20quito+(uko%20bread)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+   href="https://www.gps.ie/sport-gps/">
+   </iframe>
+</div>
+<h2>Escúchanos en vivo</h2>
+<div class=audio>
+<audio controls>
+   <source src="C:\Users\Michael\Bootcamp\02_css\trabajo_Clase\assets\chattering-in-a-restaurant-6718.mp3"
+   type="audio/mp3">
+</audio> 
+</div>
+<h2>Ubicación</h2>
+<div class="pie">
+   <footer>
+      <p>Dirección: Federico González Suárez, Quito 170184</p>
+            <p>Horario:8:00 - 20:00</p>
+            <p>Teléfono: 098 519 7572</p>
+   </footer>
+</div>
+</body>
+</html>
